@@ -11,7 +11,7 @@ def random_walk(steps):
     for k in range (1,steps):
         if positions[k]==0:
             print (k)
-    distance=(abs((positions[-1]))**0.5)
+    distance=(abs((positions[-1])))
     print (distance)
     return positions 
 steps = int(input ("Enter your steps:",))
