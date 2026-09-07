@@ -19,17 +19,5 @@ else:
          print(f"Your final amount will be ${F:,.2f}.")
 
 
-age = float(input("Enter your age: "))
-while age < 0:
-    print("Age cannot be negative.")
-    age = float(input("Enter your age again: "))
-print("Accepted.")
-
-# input always gives a string.
-# : → indicates the start of the formatting specification
-# , → adds a thousands separator
-# .2f → formats the number as a floating-point number with two decimal places
-
-
 
 
