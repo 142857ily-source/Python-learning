@@ -5,7 +5,7 @@ x=0
 y=0
 x_position=[0]
 y_position=[0]
-for i in range (10000):
+for i in range(int(input((f"Enter your steps:")))):
     direction=np. random. randint(0,4)
     if direction == 0:
         x+=1
